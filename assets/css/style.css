@@ -954,3 +954,8 @@ span {
 .active {
   color: #ee1515 !important;
 }
+
+.single-rpost:hover .post-thumb img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
